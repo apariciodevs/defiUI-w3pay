@@ -19,7 +19,7 @@ const Navbar = () => {
             <h1 className="text-3xl font-bold">W3pay</h1>
         </nav>
         <nav className="hidden space-x-10 text-xl sm:flex">
-        <Link href='/'><a className="transition duration-200 cursor-pointer hover:text-sky-400">Home</a></Link>
+        <Link href='#home'><a className="transition duration-200 cursor-pointer hover:text-sky-400">Home</a></Link>
         <Link href="#pay"><a className="transition duration-200 cursor-pointer hover:text-sky-400">Pay</a></Link>
         <Link href="#transfer"><a className="transition duration-200 cursor-pointer hover:text-sky-400">Transfer</a></Link>
         <Link href="#anonimity"><a className="transition duration-200 cursor-pointer hover:text-sky-400">Anonimity</a></Link>
@@ -38,7 +38,7 @@ const Navbar = () => {
     <div>
           {/* Mobile Nav */}
           <nav className={nav ? 'flex flex-col items-center justify-center w-screen space-y-3 text-xl bg-slate-200/40 text-slate-50 sm:hidden' : ' flex-col items-center justify-center w-screen space-y-3 text-lg bg-slate-200/40 text-slate-50 hidden' }>
-        <Link href="/"><a className="w-screen py-2 text-center transition duration-200 cursor-pointer hover:text-sky-400 hover:bg-sky-400/20">Home</a></Link>
+        <Link href="#home"><a className="w-screen py-2 text-center transition duration-200 cursor-pointer hover:text-sky-400 hover:bg-sky-400/20">Home</a></Link>
         <Link href="#pay"><a className="w-screen py-2 text-center transition duration-200 cursor-pointer hover:text-sky-400 hover:bg-sky-400/20">Pay</a></Link>
         <Link href="#transfer"><a className="w-screen py-2 text-center transition duration-200 cursor-pointer hover:text-sky-400 hover:bg-sky-400/20">Transfer</a></Link>
         <Link href="#anonimity"><a className="w-screen py-2 text-center transition duration-200 cursor-pointer hover:text-sky-400 hover:bg-sky-400/20">Anonimity</a></Link>
