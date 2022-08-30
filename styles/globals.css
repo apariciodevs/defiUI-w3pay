@@ -47,6 +47,28 @@ a {
 }
 
 .neumorphismShadow {
-  box-shadow:  12px 14px 22px #8a9199,
-             -14px -14px 22px #ffffff
+  box-shadow:  12px 12px 22px #8a9199,
+             -12px -12px 22px #ffffff
+
+}
+
+.neumorphismShadow:active {
+  animation: press 0.2s 1 linear;
+  box-shadow:  12px 12px 28px #8a9199,
+             -12px -12px 28px #ffffff
+
+
+
+}
+
+@keyframes press {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(0.92);
+  }
+  to {
+    transform: scale(1);
+  }
 }

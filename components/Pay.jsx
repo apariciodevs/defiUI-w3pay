@@ -20,7 +20,7 @@ const PayUI = () => {
             <button
               className="p-1 rounded-lg bg-slate-300/30 neumorphismShadow"
             >
-              <AiFillCamera size={25} />{" "}
+              <AiFillCamera  size={25} />{" "}
             </button>
             <h2 className="text-xl font-bold text-slate-900  tracking-[-1.8px] ml-2">
               Scan QR Code
