@@ -46,3 +46,7 @@ a {
   
 }
 
+.neumorphismShadow {
+  box-shadow:  12px 14px 22px #8a9199,
+             -14px -14px 22px #ffffff
+}
