@@ -25,7 +25,7 @@ const Navbar = () => {
         <Link href="#anonimity"><a className="transition duration-200 cursor-pointer hover:text-sky-400">Anonimity</a></Link>
         </nav>
         <nav className="hidden lg:flex">
-        <Link href="/"><a className="w-40 px-6 py-3 font-bold text-center rounded-lg text-sky-400 bg-sky-500/30 hover:text-slate-100 hover:bg-sky-400/90">Metamask</a></Link>
+        <Link href="/"><a className="px-4 py-3 font-semibold text-center rounded-lg w-30 text-sky-400 bg-sky-500/30 hover:text-slate-100 hover:bg-sky-400/90">Metamask</a></Link>
         </nav>
        
         {/* Burger Menu */}
@@ -37,7 +37,7 @@ const Navbar = () => {
     </div> 
     <div>
           {/* Mobile Nav */}
-          <nav className={nav ? 'flex flex-col items-center justify-center w-screen space-y-3 text-xl bg-slate-200/40 text-slate-50 sm:hidden' : 'flex flex-col items-center justify-center w-screen space-y-3 text-lg bg-slate-200/40 text-slate-50 hidden' }>
+          <nav className={nav ? 'flex flex-col items-center justify-center w-screen space-y-3 text-xl bg-slate-200/40 text-slate-50 sm:hidden' : ' flex-col items-center justify-center w-screen space-y-3 text-lg bg-slate-200/40 text-slate-50 hidden' }>
         <Link href="/"><a className="w-screen py-2 text-center transition duration-200 cursor-pointer hover:text-sky-400 hover:bg-sky-400/20">Home</a></Link>
         <Link href="/"><a className="w-screen py-2 text-center transition duration-200 cursor-pointer hover:text-sky-400 hover:bg-sky-400/20">Pay</a></Link>
         <Link href="#transfer"><a className="w-screen py-2 text-center transition duration-200 cursor-pointer hover:text-sky-400 hover:bg-sky-400/20">Transfer</a></Link>

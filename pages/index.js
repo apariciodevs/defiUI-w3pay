@@ -1,11 +1,13 @@
 import Head from "next/head";
 import Image from "next/image";
+import { useMoralis } from "react-moralis";
+
 
 //components
 import Hero from "../components/Hero";
 import TransferUi from "../components/Transfer";
 import Anon from "../components/Anon";
-
+import PayUI from "../components/Pay";
 
 export default function Home() {
   return (
@@ -20,7 +22,9 @@ export default function Home() {
         <div>
           <Hero/>
           <TransferUi/>
+          <PayUI></PayUI>
           <Anon/>
+
         </div>
       </main>
     </div>

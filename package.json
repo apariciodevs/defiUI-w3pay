@@ -9,11 +9,19 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "axios": "^0.27.2",
     "cryptocurrency-icons": "^0.18.1",
+    "ethers": "^5.7.0",
+    "framer-motion": "^7.2.1",
+    "moralis": "^2.1.1",
+    "moralis-v1": "^1.11.0",
     "next": "12.2.5",
+    "next-auth": "^4.10.3",
     "react": "18.2.0",
     "react-dom": "18.2.0",
-    "react-icons": "^4.4.0"
+    "react-icons": "^4.4.0",
+    "react-moralis": "^1.4.1",
+    "wagmi": "^0.6.4"
   },
   "devDependencies": {
     "autoprefixer": "^10.4.8",
