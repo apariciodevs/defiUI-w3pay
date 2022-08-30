@@ -38,7 +38,7 @@ const PayUI = () => {
               required
             />
             <button className="px-8 py-2 font-bold rounded-lg shadow-lg l hover:text-slate-100 hover:bg-indigo-400/70 text-slate-100 bg-sky-400/90 hover:shadow-indigo-500 hover:scale-110 ">
-              Send
+              Pay
             </button>
           </div>
         </div>

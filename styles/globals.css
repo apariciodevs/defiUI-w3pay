@@ -55,11 +55,9 @@ a {
 
 .neumorphismShadow:active {
   animation: press 0.2s 1 linear;
+  background: linear-gradient(145deg, #b7c0cb, #d9e4f1);
   box-shadow:  12px 12px 28px #8a9199,
              -12px -12px 28px #ffffff
-
-
-
 }
 
 @keyframes press {

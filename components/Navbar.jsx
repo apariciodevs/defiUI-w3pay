@@ -37,7 +37,7 @@ const Navbar = () => {
     </div> 
     <div>
           {/* Mobile Nav */}
-          <nav className={nav ? 'flex flex-col items-center justify-center w-screen space-y-3 text-xl bg-slate-200/40 text-slate-50 sm:hidden' : ' flex-col items-center justify-center w-screen space-y-3 text-lg bg-slate-200/40 text-slate-50 hidden' }>
+          <nav className={nav ? 'flex flex-col items-center justify-center w-screen space-y-3 text-xl bg-slate-800/20 text-slate-50 sm:hidden' : ' flex-col items-center justify-center w-screen space-y-3 text-lg bg-slate-200/40 text-slate-50 hidden' }>
         <Link href="#home"><a className="w-screen py-2 text-center transition duration-200 cursor-pointer hover:text-sky-400 hover:bg-sky-400/20">Home</a></Link>
         <Link href="#pay"><a className="w-screen py-2 text-center transition duration-200 cursor-pointer hover:text-sky-400 hover:bg-sky-400/20">Pay</a></Link>
         <Link href="#transfer"><a className="w-screen py-2 text-center transition duration-200 cursor-pointer hover:text-sky-400 hover:bg-sky-400/20">Transfer</a></Link>
