@@ -20,7 +20,7 @@ const PayUI = () => {
             <button
               className="p-1 rounded-lg bg-slate-300/30 neumorphismShadow"
             >
-              <AiFillCamera  size={25} />{" "}
+              <AiFillCamera  size={25} />
             </button>
             <h2 className="text-xl font-bold text-slate-900  tracking-[-1.8px] ml-2">
               Scan QR Code
@@ -33,7 +33,7 @@ const PayUI = () => {
             <input
               type="number"
               id="amount"
-              class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
+              className="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
               placeholder="ETH Amount"
               required
             />
