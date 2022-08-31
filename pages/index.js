@@ -1,6 +1,5 @@
 import Head from "next/head";
 import Image from "next/image";
-import { useMoralis } from "react-moralis";
 
 
 //components
