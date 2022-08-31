@@ -1,11 +1,8 @@
 import Link from "next/link";
 import Image from "next/image";
 
-import { useMoralis } from "react-moralis";
 
 const Hero = () => {
-
-
 
 
   return (
